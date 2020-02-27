@@ -1,0 +1,102 @@
+body {
+  height: 100vh;
+  background-size: 100% 100%;
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+.color {
+  position: absolute;
+  opacity: 0;
+  /* width: 500px;
+  height: 500px; */
+  justify-content: center;
+  border: 1px solid #000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.bcolor {
+  background-color: aqua;
+}
+[class='bcolor']:first-child {
+  background-color: rgb(255, 0, 0);
+  border: 1px solid #000;
+}
+[class='bcolor']:nth-child(2) {
+  background-color: rgb(255, 153, 0);
+  border: 1px solid #000;
+}
+[class='bcolor']:nth-child(3) {
+  background-color: blanchedalmond;
+  border: 1px solid #000;
+}
+[class='bcolor']:nth-child(4) {
+  background-color: rgb(0, 255, 21);
+  border: 1px solid #000;
+}
+[class='bcolor']:nth-child(5) {
+  background-color: rgb(0, 17, 255);
+  border: 1px solid #000;
+}
+[class='bcolor']:nth-child(6) {
+  background-color: rgb(234, 0, 255);
+  border: 1px solid #000;
+}
+[class='bcolor']:nth-child(7) {
+  background-color: rgb(78, 58, 29);
+  border: 1px solid #000;
+}
+[class='bcolor']:nth-child(8) {
+  background-color: rgb(63, 95, 53);
+  border: 1px solid #000;
+}
+[class='bcolor']:nth-child(9) {
+  background-color: rgb(171, 184, 113);
+  border: 1px solid #000;
+}
+
+.img {
+  position: absolute;
+  /* width: 500px;
+  height: 500px; */
+  opacity: 0;
+  justify-content: center;
+  border: 1px solid #000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  transition: 0.5s;
+}
+
+[class='icolor']:nth-child(1) {
+  background-image: url(img/1.jpg);
+  border: 1px solid #000;
+  background-size: 100% 100%;
+}
+[class='icolor']:nth-child(2) {
+  background-image: url(img/2.jpg);
+  border: 1px solid #000;
+  background-size: 100% 100%;
+}
+[class='icolor']:nth-child(3) {
+  background-image: url(img/3.jpg);
+  border: 1px solid #000;
+  background-size: 100% 100%;
+}
+[class='icolor']:nth-child(4) {
+  background-image: url(img/4.jpg);
+  border: 1px solid #000;
+  background-size: 100% 100%;
+}

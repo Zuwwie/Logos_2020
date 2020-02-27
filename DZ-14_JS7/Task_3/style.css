@@ -1,0 +1,29 @@
+body {
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.box {
+    padding-top: 50px;
+    margin: auto;
+    height: 50px;
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.button {
+    border: 1px solid red;
+    background: linear-gradient(45deg, pink, #c5dde8);
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+.but {
+    width: 60%;
+    margin: 50px;
+    border: 1px solid red;
+    background: linear-gradient(45deg, pink, #c5dde8);
+    padding-top: 10px;
+    font-size: 24px;
+}
