@@ -1,0 +1,105 @@
+body {
+    background: #253645;
+  }
+  
+  .dots {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .dot {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .dot:before, .dot:after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    background: #C5EFF7;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-14px);
+    margin-left: -11px;
+    margin-top: -11px;
+  }
+  .dot:after {
+    transform: translateX(14px);
+  }
+  @keyframes dots-move-0 {
+    0% {
+      transform: translateX(-14px) rotate(0deg);
+    }
+    50%, 100% {
+      transform: translateX(-14px) rotate(180deg);
+    }
+  }
+  @keyframes dots-visibility-0 {
+    0% {
+      visibility: visible;
+    }
+    50%, 100% {
+      visibility: hidden;
+    }
+  }
+  .dot:nth-child(1) {
+    transform: translateX(-14px) rotate(0deg);
+    animation: dots-move-0 0.7s -0s ease-in infinite;
+  }
+  .dot:nth-child(1):before {
+    animation: dots-visibility-0 0.7s -0s infinite;
+  }
+  @keyframes dots-move-1 {
+    0% {
+      transform: translateX(14px) rotate(180deg);
+    }
+    50%, 100% {
+      transform: translateX(14px) rotate(0deg);
+    }
+  }
+  @keyframes dots-visibility-1 {
+    0% {
+      visibility: visible;
+    }
+    50%, 100% {
+      visibility: hidden;
+    }
+  }
+  .dot:nth-child(2) {
+    transform: translateX(14px) rotate(0deg);
+    animation: dots-move-1 0.7s -0.35s ease-in infinite;
+  }
+  .dot:nth-child(2):before {
+    animation: dots-visibility-1 0.7s -0.35s infinite;
+  }
+
+
+  .per{
+      height: 100px;
+      width: 100%;
+      /* background-color: red; */
+      position: absolute;
+      top: 42%;
+      font-size: 50px;
+      color: #C5EFF7;
+      text-align: center;
+  }
+  .dws-progress-bar {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(180deg);
+   }   
+   .progress-percentage {
+    position: absolute;
+color: transparent;
+    }   

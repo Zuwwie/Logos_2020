@@ -1,0 +1,60 @@
+.lol{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 450px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-evenly;
+    transform: translate(0 ,-50%);
+}
+.bigBox{
+    width: 450px;
+    height: 450px;
+    border: 1px solid red;
+    display: flex;
+    
+
+}
+
+.sort{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 450px;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.one{
+    height: 150px;
+    width: 150px;
+    background-color: burlywood;
+    background-size: 100% 100%;
+}
+.sort2{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 450px;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+#right {
+	width: 450px;
+	height: 450px;
+	border: 1px solid #000;
+	cursor: move;
+}
+.divTable {
+	display: table;
+	width: 450px;
+	height: 450px;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableCell {
+	display: table-cell;
+	width: 150px;
+	height: 150px;
+}

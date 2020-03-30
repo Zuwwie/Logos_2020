@@ -1,0 +1,49 @@
+.phone{
+    height: 400px;
+    width: 400px;
+    background-image: url(i3.png);
+    background-size: 100% 100%;
+    /* border: 1px solid #000;; */
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    transform: translate(-50%);
+    z-index: 3;
+}
+/* .xphone{
+    height: 324px;
+    width: 158px;
+    border-radius: 20px;
+  background-color: black;
+    border: 1px solid #000;;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
+.xphone{
+    display: none;
+    height: 340px;
+    width: 160px;
+    border-radius: 20px;
+  background-color: black;
+    border: 1px solid #000;;
+    position: absolute;
+    left: 528px;
+    top: 325px;
+    transform: translate(-50%);
+}
+.text{
+    position: absolute;
+    color: red;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+    top: 430px;
+    left: 504px;
+}
+.time{
+    font-size: 50px;
+    text-align: center;
+}
